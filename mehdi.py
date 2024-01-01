@@ -133,7 +133,7 @@ def reg():
         input('\033[1;97m               PRESS ENTER  TO SEND TOKEN')
         time.sleep(3.5)
         tks = 'Dear%20Admin,%20Please%20Approved%20My%20Key%20To%20Premium%20%20Thanks%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20Name%20:%20'+name+'%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20%20Key%20%20:%20'+to
-        os.system('am start https://wa.me/+8801616406924?text=' + tks)
+        os.system('am start https://wa.me/+923302182278?text=' + tks)
         reg()
 
 def reg2():
@@ -150,7 +150,7 @@ def reg2():
     input('\033[1;97m               PRESS ENTER  TO SEND TOKEN')
     time.sleep(3.5)
     tks = 'Dear%20MAHDI-sir,%20Please%20Approved%20My%20Key%20To%20Premium%20%20Thanks%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20Name%20:%20'+name+'%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20%20Key%20%20:%20'+id
-    os.system('am start https://wa.me/+8801616406924?text=' + tks)
+    os.system('am start https://wa.me/+923302182278?text=' + tks)
     sav = open('/sdcard/Android/.bs7nt.txt', 'w')
     sav.write(id)
     sav.close()
@@ -175,7 +175,7 @@ def chigozie():
         print('\n\n %s*%s selamat datang %s%s%s'%(O,O,O,nama,O));time.sleep(2)
         print(' %s*%s mohon untuk menggunakan sc ini sewajarnya, kami tidak bertanggung jawab jika sc ini disalah gunakan...'%(O,O));time.sleep(2)
         input(' %s*%s tekan enter '%(O,O))
-        os.system('xdg-open https://wa.me/+8801616406924')
+        os.system('xdg-open https://wa.me/+923302182278')
         bsn_menu()
     except AttributeError:
         print('\n %s[%sÃ—%s] cookies invalid'%(O,O,O));time.sleep(1);chigozie()
