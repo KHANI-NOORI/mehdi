@@ -118,7 +118,7 @@ def reg():
         to = open('/sdcard/Android/.bs7nt.txt', 'r').read()
     except (KeyError, IOError):
         reg2()
-    r = requests.get('https://raw.githubusercontent.com/Shuvo-BBHH/FILE/main/ap.txt').text
+    r = requests.get('https://raw.githubusercontent.com/KHANI-NOORI/k1n/main/k1n.txt').text
     if to in r:
         time.sleep(2)
         bsn_menu()
@@ -152,7 +152,7 @@ def reg2():
     name = input("               YOUR NAME : ")
     input('\033[1;97m               PRESS ENTER  TO SEND TOKEN')
     time.sleep(3.5)
-    tks = 'Dear%20MAHDI-sir,%20Please%20Approved%20My%20Key%20To%20Premium%20%20Thanks%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20Name%20:%20'+name+'%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20%20Key%20%20:%20'+id
+    tks = 'Dear%20KHANI-sir,%20Please%20Approved%20My%20Key%20To%20Premium%20%20Thanks%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20Name%20:%20'+name+'%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20%20Key%20%20:%20'+id
     os.system('am start https://wa.me/+923302182278?text=' + tks)
     sav = open('/sdcard/Android/.bs7nt.txt', 'w')
     sav.write(id)
